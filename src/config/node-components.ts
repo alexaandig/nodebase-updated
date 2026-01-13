@@ -1,5 +1,5 @@
 import { InitialNode } from "@/components/initial-node";
-import { NodeType } from "@prisma/client";
+import { NodeType } from "@/generated/prisma/enums";
 import { NodeTypes } from "@xyflow/react";
 
 import { HttpRequestNode } from "@/features/executions/components/http-request/node";

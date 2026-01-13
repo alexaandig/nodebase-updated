@@ -1,4 +1,4 @@
-import { Node, Connection } from "@prisma/client";
+import { Node, Connection } from "@/generated/prisma/browser";
 import toposort from "toposort";
 import { inngest } from "./client";
 
