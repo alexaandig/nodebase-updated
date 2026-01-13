@@ -91,7 +91,7 @@ export const anthropicExecutor: NodeExecutor<AnthropicData> = async ({
       "anthropic-generate-text",
       generateText,
       {
-        model: anthropic("claude-sonnet-4-5"),
+        model: anthropic("claude-sonnet-3-5"),
         system: systemPrompt,
         prompt: userPrompt,
         experimental_telemetry: {
